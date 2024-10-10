@@ -1,0 +1,3 @@
+This repository is for practising time series analysis and forecasting. Time series are datasets where each data point is linked to a specific timestamp. Typically, these points are arranged in chronological order and recorded at regular intervals (e.g., every minute or every day).
+
+The goal of time series forecasting is to learn patterns from past data to predict future values. A common example is predicting stock prices, but it also applies to things like forecasting seasonal clothing sales or weather patterns. Unlike standard regression problems, time series data is time-dependent and often exhibits trends or seasonality.

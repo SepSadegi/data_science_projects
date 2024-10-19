@@ -57,7 +57,7 @@ plt.plot(yt2)
 plt.title(r'Time Series for $\phi = -0.9$', fontsize=14)
 
 plt.tight_layout()
-plt.savefig('simulated_ar(1)_pos_neg_phi.jpg', format='jpg', dpi=300)
+plt.savefig('02_ar(1)_pos_neg_phi.jpg', format='jpg', dpi=300)
 plt.show()
 
 # Set up for ACF and PACF plots
@@ -103,6 +103,6 @@ plt.xlabel("Lag")
 plt.ylabel("Sample PACF")
 
 plt.tight_layout()
-plt.savefig('simulated_ar(1)_acf_pacf.jpg', format='jpg', dpi=300)
+plt.savefig('02_ar(1)_acf_pacf.jpg', format='jpg', dpi=300)
 plt.show()
 

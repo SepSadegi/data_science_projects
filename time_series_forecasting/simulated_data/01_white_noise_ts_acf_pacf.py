@@ -44,5 +44,5 @@ plt.xlabel("Lag")
 plt.ylabel("Sample PACF")
 
 plt.tight_layout()
-plt.savefig('white_noise_acf_pacf.jpg', format='jpg', dpi=300)
+plt.savefig('01_white_noise_acf_pacf.jpg', format='jpg', dpi=300)
 plt.show()

@@ -1,6 +1,11 @@
 """
-This code computes the MLE of the AR coefficient ϕ, the unbiased estimator of v, s2, and
-the MLE of v based on a dataset simulated from an AR(1) process  and using the conditional likelihood.
+This code manually computes the Maximum Likelihood Estimate (MLE) of the autoregressive (AR)
+coefficient ϕ, the unbiased estimator of the innovation variance v (denoted as s2), and the
+MLE of v based on a dataset simulated from an AR(1) process.
+
+The estimation is performed using the conditional likelihood, which conditions on the first
+observation. This approach is useful as it simplifies the likelihood function, allowing for
+closed-form solutions for ϕ and v.
 """
 import numpy as np
 
